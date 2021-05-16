@@ -1,0 +1,54 @@
+Query: 0
+Reference: '>JK_941009.1 test_reference, test complete DNA'
+Query:     '>example 1_1 data'
+
+ACGTACGTCCGGTCCACGTAAAAGAT
+        |||||            
+        CCGGT             
+
+Reference: [8, 12] and Query: [1, 5]
+
+Match: 5 | Mismatch: 5
+Aligned: 50.0(%)
+
+
+Query: 1
+Reference: '>JK_941009.1 test_reference, test complete DNA'
+Query:     '>example 1_2 data'
+
+ACGTACGTCCGGTCCACGTAAAAGAT
+ |||||                   
+ CGTAC      
+
+Reference: [1, 5] and Query: [5, 9]
+
+Match: 5 | Mismatch: 7
+Aligned: 41.67(%)
+
+
+Query: 2
+Reference: '>JK_941009.1 test_reference, test complete DNA'
+Query:     '>example 1_3 data'
+
+ACGTACGTCCGGTCCACGTAAAAGAT
+                          
+--------------------------
+
+
+Match: 0 | Mismatch: 24
+Aligned: 0.0(%)
+
+
+Query: 3
+Reference: '>JK_941009.1 test_reference, test complete DNA'
+Query:     '>example 1_4 data'
+
+ACGTACGTCCGGTCCACGTAAAAGAT
+                          
+--------------------------
+
+
+Match: 0 | Mismatch: 15
+Aligned: 0.0(%)
+
+

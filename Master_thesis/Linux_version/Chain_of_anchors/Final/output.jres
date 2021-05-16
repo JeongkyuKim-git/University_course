@@ -1,0 +1,16 @@
+Query: 0
+Reference: '>JK_941009.1 test_reference, test complete DNA'
+Query:     '>JK_941009.1 test_query, complete DNA, single'
+
+ACGTACGTCCGGTCCACGTAAAAGAT
+|||||    |||||||    ||||||
+ACGTA    CGGTCCA    AAAGAT                          
+
+Reference: [0, 4] and Query: [0, 4]
+Reference: [9, 15] and Query: [12, 18]
+Reference: [20, 25] and Query: [18, 23]
+
+Match: 18 | Mismatch: 6
+Aligned: 75.0(%)
+
+
