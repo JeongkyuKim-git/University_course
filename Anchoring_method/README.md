@@ -6,7 +6,7 @@
 --------  
 > 01. Cross_validation  
 
-*02는 전체 pipeline에 대한 소스코드 (모듈 정리).*
+*02는 전체 Pipeline에 대한 소스코드 (모듈 정리).*
 --------  
 > 02. Anchoring_module  
 
