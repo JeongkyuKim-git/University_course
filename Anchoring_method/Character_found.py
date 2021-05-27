@@ -19,10 +19,24 @@ def read_file02(file_name):
     with open(file_name, "r", encoding="EUC-kr") as raw_file:
         for line in raw_file:
             data_storege += line.strip()
-            print(data_storege)
     return data_storege
 
 file_path = "../Data/req.txt"
-read_file01(file_path)
+Total_number = read_file01(file_path)
 print("--------------------")
-read_file02(file_path)
+Result = read_file02(file_path)
+
+print(Total_number)
+print(Result)
+
+length = 5
+print("length = 5", end = "")
+print([Result[i:i+length] for i in range(0, len(Result), length)])
+
+length = 10
+print("length = 10", end = "")
+print([Result[i:i+length] for i in range(0, len(Result), length)])
+
+length = 15
+print("length = 15", end = "")
+print([Result[i:i+length] for i in range(0, len(Result), length)])
