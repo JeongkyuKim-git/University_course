@@ -32,7 +32,10 @@ Result = seq(file_path)
 # Result = read_file02(file_path)
 # print(Result)
 
+# length = splicing 하는 길이
 length = 20
+
+# Call = 길이에 따라 분기를 함
 Call = [Result[i:i+length] for i in range(0, len(Result), length)]
 
 print(header(file_path).strip())
@@ -41,6 +44,7 @@ print("length = 20", end="")
 print(" ")
 print(Call)
 
+# 파일을 여러개 생성하는 구문
 for x in range(len(Call)):
     input_data = open("split_" + str(x) + ".fasta", "w")
     # input_dat.write(referenceHeader +'\n')
