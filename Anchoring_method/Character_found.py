@@ -21,6 +21,7 @@ def read_file02(file_name):
             data_storege += line.strip()
     return data_storege
 
+
 file_path = "../Data/req.txt"
 Total_number = read_file01(file_path)
 print("--------------------")
@@ -30,15 +31,15 @@ print(Total_number)
 print(Result)
 
 length = 5
-print("length = 5", end = "")
+print("length = 5", end="")
 print([Result[i:i+length] for i in range(0, len(Result), length)])
 
 length = 10
-print("length = 10", end = "")
+print("length = 10", end="")
 print([Result[i:i+length] for i in range(0, len(Result), length)])
 
 length = 15
-print("length = 15", end = "")
+print("length = 15", end="")
 print([Result[i:i+length] for i in range(0, len(Result), length)])
 
 Call = [Result[i:i+length] for i in range(0, len(Result), length)]
