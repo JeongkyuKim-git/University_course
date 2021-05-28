@@ -35,10 +35,11 @@ Result = seq(file_path)
 length = 20
 Call = [Result[i:i+length] for i in range(0, len(Result), length)]
 
-print(" ")
-print("--------------------")
 print(header(file_path).strip())
+print("--------------------")
 print("length = 20", end="")
+print(" ")
+print(Call)
 
 for x in range(len(Call)):
     input_data = open("split_" + str(x) + ".fasta", "w")
