@@ -13,7 +13,6 @@ def header(file_name):
         for line in f1:
             if line.startswith('>'):
                 header = line
-                print(header)
     return header
 
 
@@ -25,24 +24,22 @@ def seq(file_name):
                 header = line
             else:
                 data_storege += line.strip()
-        print(data_storege)
     return data_storege
 
 
 file_path = 'Req_01.fasta'
-header(file_path)
-Call = seq(file_path)
-print("--------------------")
+Result = seq(file_path)
 # Result = read_file02(file_path)
 # print(Result)
 
 length = 20
-print("length = 20", end="")
-print([Result[i:i+length] for i in range(0, len(Result), length)])
-
 Call = [Result[i:i+length] for i in range(0, len(Result), length)]
 
-print(len(Call))
+print(" ")
+print("--------------------")
+print(header(file_path).strip())
+print("length = 20", end="")
+
 for x in range(len(Call)):
     input_data = open("split_" + str(x) + ".fasta", "w")
     # input_dat.write(referenceHeader +'\n')
