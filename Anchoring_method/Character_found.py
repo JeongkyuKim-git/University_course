@@ -40,3 +40,11 @@ print([Result[i:i+length] for i in range(0, len(Result), length)])
 length = 15
 print("length = 15", end = "")
 print([Result[i:i+length] for i in range(0, len(Result), length)])
+
+Call = [Result[i:i+length] for i in range(0, len(Result), length)]
+
+print(len(Call))
+for x in range(len(Call)):
+    input_data = open("split_" + str(x) + ".fasta", "w")
+    # input_dat.write(referenceHeader +'\n')
+    input_data.write(Call[x])
