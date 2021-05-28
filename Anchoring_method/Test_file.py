@@ -7,28 +7,37 @@ def read_file02(file_name):
     return data_storege
 
 
-def header_and_seq(file_name):
+def header(file_name):
     with open(file_name) as f1:
         data_storege = ""
         for line in f1:
             if line.startswith('>'):
                 header = line
                 print(header)
+    return header
+
+
+def seq(file_name):
+    with open(file_name) as f1:
+        data_storege = ""
+        for line in f1:
+            if line.startswith('>'):
+                header = line
             else:
                 data_storege += line.strip()
         print(data_storege)
-    return header, data_storege
+    return data_storege
 
 
 file_path = 'Req_01.fasta'
-header_and_seq(file_path)
-
+header(file_path)
+Call = seq(file_path)
 print("--------------------")
-Result = read_file02(file_path)
-print(Result)
+# Result = read_file02(file_path)
+# print(Result)
 
 length = 20
-print("length = 5", end="")
+print("length = 20", end="")
 print([Result[i:i+length] for i in range(0, len(Result), length)])
 
 Call = [Result[i:i+length] for i in range(0, len(Result), length)]
