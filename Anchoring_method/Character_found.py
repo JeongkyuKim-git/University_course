@@ -42,6 +42,7 @@ length = 15
 print("length = 15", end="")
 print([Result[i:i+length] for i in range(0, len(Result), length)])
 
+length = 30
 Call = [Result[i:i+length] for i in range(0, len(Result), length)]
 
 print(len(Call))
