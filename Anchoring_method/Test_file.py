@@ -6,6 +6,7 @@ def read_file02(file_name):
             data_storege += line.strip()
     return data_storege
 
+
 # header (">" 구분)
 def header(file_name):
     with open(file_name) as f1:
@@ -14,6 +15,7 @@ def header(file_name):
             if line.startswith('>'):
                 header = line
     return header
+
 
 "seq 데이터 뽑기"
 def seq(file_name):
@@ -43,8 +45,8 @@ print("--------------------")
 print("length = 20", end="")
 print(" ")
 print(Call)
-
-print(header(file_path).strip())
+#
+# print(header(file_path).strip())
 
 text = "\n"
 length_check = " (length = %s)" % str(length)
