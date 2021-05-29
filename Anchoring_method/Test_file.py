@@ -44,8 +44,11 @@ print("length = 20", end="")
 print(" ")
 print(Call)
 
+print(header(file_path).strip())
+
 # 파일을 여러개 생성하는 구문
 for x in range(len(Call)):
     input_data = open("split_" + str(x) + ".fasta", "w")
     # input_dat.write(referenceHeader +'\n')
+    input_data.write(header(file_path).strip())
     input_data.write(Call[x])
