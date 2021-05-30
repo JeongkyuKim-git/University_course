@@ -18,6 +18,6 @@
 --------  
 > 03. Version_update  
 
-*Etc. (data_file)*  
+*Etc. (Test_data)*
 --------  
-> NCBI database에 존재하는 데이터
+> NCBI database에 존재하는 데이터 및 테스트용 텍스트 파일 자료
