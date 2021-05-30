@@ -17,3 +17,7 @@
 *03은 Raw data를 전처리 하기 위해 python3.0을 이용함.*  
 --------  
 > 03. Version_update  
+
+*Etc. (data_file)*  
+--------  
+> NCBI database에 존재하는 데이터
