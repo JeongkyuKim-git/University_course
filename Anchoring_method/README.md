@@ -1,8 +1,8 @@
 2021-Anchoring based on Sequence Alignment
 ========  
-<br>
-  
 > 2021. Research on paper
+  
+<br>
 
 *01은 Raw data를 Cross validation하기 위해 전처리 과정을 python3.0을 이용함.*
 --------  
