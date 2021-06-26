@@ -10,7 +10,7 @@
 *국외 논문*
 -----  
 - IEEE ACCESS
-> Section 04. Short read alinment
+> Section 04. Short read aliner
 
 <br>
 
