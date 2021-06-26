@@ -8,12 +8,12 @@
 
 *석사 졸업 논문*
 -----  
-- Anchoring
-
+- Anchoring  
+> Section 03. Master thisis  
 
 *국외 논문 (Research)*
 -----  
-- IEEE ACCESS
+- IEEE ACCESS  
 > Section 04. Short read aliner  
 
 <br>
