@@ -3,7 +3,7 @@
 *진행중인 논문*
 -----  
 - Anchoring  
-> Section 01. Anchoring
+> Section 01. Anchoring method
 
 *국내 학술지 (Korea Journal)*
 -----  
