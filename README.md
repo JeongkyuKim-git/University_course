@@ -7,7 +7,7 @@
 > Section 02. Korea journal
 
 
-*국외 논문*
+*국외 논문 (Research)*
 -----  
 - IEEE ACCESS
 > Section 04. Short read aliner
