@@ -1,5 +1,9 @@
 *대학교 연구*
 =====  
+*진행중인 논문*
+-----  
+- Anchoring  
+> Section 01. Anchoring
 
 *국내 학술지 (Korea Journal)*
 -----  
@@ -8,7 +12,7 @@
 
 *석사 졸업 논문*
 -----  
-- Anchoring  
+- DNA pipeline - Anchoring  
 > Section 03. Master thisis  
 
 *국외 논문 (Research)*
