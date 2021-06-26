@@ -1,7 +1,7 @@
 *대학교 연구*
 =====  
 
-*국내 학술지 (Korea jounal)*
+*국내 학술지 (Korea journal)*
 -----  
 - 
 **
