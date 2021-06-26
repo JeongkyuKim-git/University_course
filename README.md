@@ -4,13 +4,16 @@
 *국내 학술지 (Korea Journal)*
 -----  
 - 한국멀티미디어 학술지  
-> Section 02. Korea journal
+> Section 02. Korea journal  
+
+**
+-----  
 
 
 *국외 논문 (Research)*
 -----  
 - IEEE ACCESS
-> Section 04. Short read aliner
+> Section 04. Short read aliner  
 
 <br>
 
